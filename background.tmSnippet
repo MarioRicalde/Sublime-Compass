@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>background: ${1/(^[0-9a-fA-F]{1,6}$)|.+/(?1:#)/}${1/(^\(.*$)|.+/(?1:rgb)/}${1/(^\(.*,.*,.*,.*$)|.+/(?1:a)/}${1:f}${1/(^\([^)]*$)|.+/(?1:\))/}${1/(^[0-9a-fA-F]{1,2}$)|.+/(?1:$1$1)/}${1/(^.+$)|.+/(?1: )/}image-url('${2:image.jpg}')${6: ${3:no-}repeat${4:-x}${5:-y}} ${7:0}${7/^(-?[1-9]\d*)$|.+/(?1:px)/} ${8:0}${8/^(-?[1-9]\d*)$|.+/(?1:px)/};</string>
+	<key>name</key>
+	<string>background</string>
+	<key>scope</key>
+	<string>source.css, source.scss, source.stylus</string>
+	<key>tabTrigger</key>
+	<string>bg</string>
+	<key>uuid</key>
+	<string>D27FBAE9-1D8D-4D42-AASD-F10ASD09F3DF</string>
+</dict>
+</plist>
